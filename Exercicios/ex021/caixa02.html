@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    article {
+        background-color: lightgray;
+        padding: 5px;
+    }
+    article > aside {
+        background-color: rgba(211, 211, 211, 0.562);
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+    }
+    nav {
+        background-color: rgba(0, 0, 0, 0.452);
+        padding: 3px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assusntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quam! Quae eos, sit ex exercitationem enim amet autem expedita aliquid dolor iusto quo? Asperiores, harum assumenda dolor quas vel aperiam.</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p style="margin: 0;">Desenvolvido por PetMusics</p>
+    </footer>
+</body>
+</html>
